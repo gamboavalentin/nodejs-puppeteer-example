@@ -7,7 +7,7 @@
 
 Test code for the Docker image [gamboavalentin/nodejs-puppeteer](https://hub.docker.com/r/gamboavalentin/nodejs-puppeteer).
 
-Docker Pull Command → 
+** Docker Pull Command ↴ **
 ```
 docker build -t nodejs-puppeteer-example .
 docker run -d nodejs-puppeteer-example
