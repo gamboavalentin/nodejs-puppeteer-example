@@ -5,7 +5,7 @@ try {
   // Launch the browser and open a new blank page
   console.log('TEST RUN ⏱️')
   console.log('Loading Puppeteer launch...')
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   console.log('Loading Puppeteer newPage...')
   const page = await browser.newPage()
 
