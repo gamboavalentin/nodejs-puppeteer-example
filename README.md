@@ -16,4 +16,4 @@ docker build -t nodejs-puppeteer-example .
 docker run -d nodejs-puppeteer-example
 ```
 
-## Puppeteer Example Homepage → [🔗](https://pptr.dev/#example)
+## Puppeteer Example Code → [🔗](https://pptr.dev/#example)
