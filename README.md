@@ -7,8 +7,13 @@
 
 Test code for the Docker image [gamboavalentin/nodejs-puppeteer](https://hub.docker.com/r/gamboavalentin/nodejs-puppeteer).
 
-** Docker Pull Command ↴ **
+> [!IMPORTANT]
+> Use the `puppeteer.launch({ headless: true, args: ['--no-sandbox'] }) ` configuration to create a browser object.
+
+__Docker Command ↴__
 ```
 docker build -t nodejs-puppeteer-example .
 docker run -d nodejs-puppeteer-example
 ```
+
+## Puppeteer Example Homepage → [🔗](https://pptr.dev/#example)
